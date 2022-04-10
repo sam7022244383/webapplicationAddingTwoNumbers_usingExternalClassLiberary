@@ -24,7 +24,7 @@ namespace webapplicationAddingTwoNumbers_usingExternalClassLiberary
             Class1 a = new Class1();
             int c = a.Addprublic(n1, n2);
             lblresult.Text = c.ToString();
-           
+            Console.WriteLine("Hello");
         }
     }
 }
